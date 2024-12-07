@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     "./index.html",
@@ -12,6 +13,9 @@ export default {
       },
       colors:{
         'red-clean-type':'#E62727'
+      },
+      backgroundImage:{
+        'dec-angle':'url("./src/assets/img/decAngle.png")'
       }
     },
   },

@@ -7,9 +7,9 @@ export default function StudentWhichBook() {
       <div className='flex w-full justify-between    mt-20 font-poppins   '>
         <div className='  md:w-[488px]  lg:w-[75%]     '>
           <div className='hidden lg:flex w-[500px]    -translate-x-[330px] h-[107px]  bg-red-500 rounded-r-3xl'></div>
-          <div className='   w-[282px] md:w-[588px] lg:w-full      h-fit md:mt-20'>
+          <div className='   w-[282px] md:w-full lg:w-full      h-fit md:mt-20'>
           
-            <p className='flex gap-2 flex-wrap text-xl pl-5 lg:pl-24   lg:text-[35px] font-bold'>
+            <p className='flex  gap-2 flex-wrap text-xl pl-5 lg:pl-24   lg:text-[35px] font-bold'>
               <span className='md:text-red-clean-type transition-all lg:text-[35px] font-bold  '>Bem-Vindo</span> 
               <span className='text-red-clean-type '>ao SENAI! </span>
               <span>
@@ -18,7 +18,7 @@ export default function StudentWhichBook() {
            
   
           
-            {/* <p className='lg:hidden text-xl font-black'>transformando</p> */}
+       
             <p className='text-xl font-black pl-5 lg:pl-24 lg:font-bold mt-5 lg:text-[35px]'><span className='text-red-clean-type'>Vidas</span> e <span className='text-red-clean-type'>Carreiras</span></p>
 
           </div>
@@ -40,7 +40,7 @@ export default function StudentWhichBook() {
 
         <div className='hidden md:flex lg:flex flex-col  lg:w-[582px] mt-40    lg:overflow-x-hidden  lg:items-end'>
 
-          <div className='w-[250px] lg:-ml-[30%] lg:absolute   z-10 lg:w-[532px] mt-[-125px]  '>
+          <div className='w-[300px] mr-9   lg:-ml-[30%] lg:absolute   z-10 lg:w-[532px] mt-[-125px]  '>
             <img className='w-full ' src={studentIconOne} alt="" />
             <img className='hidden lg:block w-full  absolute -mt-24 z-30' src={smoke} alt="" />
           </div>
