@@ -2,7 +2,7 @@ import senaiLogo from '../../assets/img/senaiLogo.png'
 import MenuRed from '../../assets/img/MenuRed.svg'
 
 import SearchRed from '../../assets/img/SearchRed.svg'
-import Search from '../../assets/img/Searchicon.png'
+import Search from '../../assets/img/searchIcon.png'
 import alunoSupport from '../../assets/img/perfilPageIcon.png'
 
 import {Link} from 'react-router-dom'
